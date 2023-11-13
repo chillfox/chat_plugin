@@ -1,0 +1,19 @@
+name: personal-todo-list
+version: 1.0.0
+description: Plugin for managing a TODO list, you can add, remove and view your TODOs.
+
+dependencies:
+  # The server framework
+  action-controller:
+    github: spider-gazelle/action-controller
+
+development_dependencies:
+  ameba:
+    github: veelenga/ameba
+  hot_topic:
+    github: jgaskins/hot_topic
+
+# compile target
+targets:
+  app:
+    main: src/app.cr
